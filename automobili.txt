@@ -1,0 +1,15 @@
+auto_id        PK         BIGINT                          AUTO_INCREMENT
+modello                   VARCHAR           NOTNULL
+colore                    VARCHAR           NOTNULL
+marca                     VARCHAR           NOTNULL
+tipo                      VARCHAR           NOTNULL
+porte                     TINYINT(1)        NOTNULL
+posti                     TINYINT(2)        NOTNULL       DEFAULT 5
+cilindrata                SMALLINT          NOTNULL
+potenza                   SMALLINT          NOTNULL
+kilowatt                  FLOAT(5,2)        NOTNULL
+prezzo                    DECIMAL(9,2)      NOTNULL
+anno_immatricolazione     YEAR              NOTNULL
+targa                     VARCHAR           NOTNULL       UNIQUE
+chilometri                MEDIUMINT         NOTNULL
+tipo_carburante           VARCHAR           NOTNULL
